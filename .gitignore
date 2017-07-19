@@ -1,0 +1,8 @@
+downloads/
+m2deps/
+jobs/*/builds/
+jobs/*/cobertura/
+jobs/*/lastStable
+jobs/*/lastSuccessful
+jobs/*/nextBuildNumber
+jobs/*/workspace/
