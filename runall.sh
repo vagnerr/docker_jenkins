@@ -22,7 +22,7 @@ docker build -t myjenkins .
 
 docker run  -p ${sonar_port}:9000 --rm --name mysonar sonarqube:6.3.1 &
 
-IP=$(ifconfig en0 | awk '/ *inet /{print $2}')
+IP=$(ip -o -4 addr show dev eth1 scope global | awk -F '[ /]+' '/inet/ {print $4}')
 
 echo "Host ip: ${IP}"
 
