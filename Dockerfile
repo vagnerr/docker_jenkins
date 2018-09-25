@@ -1,5 +1,5 @@
 #this is the base image we use to create our image from
-FROM jenkins:2.60.1
+FROM jenkins/jenkins:2.142
 
 #just info about who created this
 MAINTAINER Peter Wise (peter@bloodaxe.com)
