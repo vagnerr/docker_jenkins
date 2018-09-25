@@ -1,12 +1,13 @@
 ace-editor
 ant
 antisamy-markup-formatter
+apache-httpcomponents-client-4-api
 authentication-tokens
 bouncycastle-api
 branch-api
 build-timeout
 cloudbees-folder
-cobertura
+command-launcher
 credentials
 credentials-binding
 display-url-api
@@ -14,7 +15,6 @@ docker-commons
 docker-workflow
 durable-task
 email-ext
-external-monitor-job
 git
 git-client
 git-server
@@ -23,9 +23,10 @@ github-api
 github-branch-source
 gradle
 handlebars
-icon-shim
 jackson2-api
+jdk-tool
 jquery-detached
+jsch
 junit
 ldap
 mailer
@@ -57,7 +58,6 @@ structs
 subversion
 timestamper
 token-macro
-windows-slaves
 workflow-aggregator
 workflow-api
 workflow-basic-steps
